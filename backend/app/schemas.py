@@ -244,3 +244,15 @@ class TrainingEntry(BaseModel):
     field_5: str | None = None  # 考核成绩
     field_6: str | None = None  # 培训日期
     field_7: str | None = None  # 培训状态
+
+class NoiseEntry(BaseModel):
+    """噪声投诉明细结构。"""
+
+    field_0: str | None = None  # 投诉编号
+    field_1: str | None = None  # 投诉人
+    field_2: str | None = None  # 联系电话
+    field_3: str | None = None  # 投诉时段
+    field_4: str | None = None  # 涉及区域
+    field_5: str | None = None  # 受理时间
+    field_6: str | None = None  # 回访时间
+    field_7: str | None = None  # 处置状态
